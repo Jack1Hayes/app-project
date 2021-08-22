@@ -16,6 +16,7 @@
     "mongod": "^2.0.0",
     "mongoose": "^5.13.7",
     "nodemon": "^2.0.12",
-    "npm-git-install": "^0.3.0"
+    "npm-git-install": "^0.3.0",
+    "yarn": "^1.22.11"
   }
 }
