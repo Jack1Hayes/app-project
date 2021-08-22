@@ -1,8 +1,10 @@
 // mongodb
-require("./config/db");
+require("./config/DB");
 
 const app = require("express")();
 const port = process.env.PORT || 3000;
+const cors = require('cors');
+app.use(cors);
 
 //cors
 const cors = require("cors");
