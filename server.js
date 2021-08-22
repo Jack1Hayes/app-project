@@ -1,5 +1,5 @@
 // mongodb
-require("./config/DB");
+require("./config/db");
 
 const app = require("express")();
 const port = process.env.PORT || 3000;
