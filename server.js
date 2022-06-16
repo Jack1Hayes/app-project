@@ -2,7 +2,7 @@
 require("./config/DB");
 
 const app = require("express")();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 
 
@@ -16,7 +16,7 @@ app.use(bodyParser());
 const cors = require("cors");
 app.use(cors());
 
-app.use("/user", UserRouter);
+app.use("/User", UserRouter);
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);

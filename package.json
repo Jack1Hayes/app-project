@@ -15,8 +15,10 @@
     "express": "^4.17.1",
     "mongod": "^2.0.0",
     "mongoose": "^5.13.7",
+    "nodemailer": "^6.6.3",
     "nodemon": "^2.0.12",
     "npm-git-install": "^0.3.0",
+    "uuid": "^8.3.2",
     "yarn": "^1.22.11"
   }
 }
